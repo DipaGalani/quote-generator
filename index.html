@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link
+      rel="shortcut icon"
+      href="https://www.google.com/s2/favicons?domain=nanyang.sch.id"
+      type="image/png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quote-container" id="quote-container">
+      <!-- Quote -->
+      <div class="quote-text">
+        <i class="fas fa-quote-left"></i>
+        <span id="quote"
+          >What you are is what you have done. What you will be is you do
+          now.</span
+        >
+      </div>
+      <!-- Author -->
+      <div class="quote-author">
+        <span id="author">Buddha</span>
+      </div>
+      <!-- Buttons -->
+      <div class="button-container">
+        <button id="twitter-button" title="tweet this!">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button id="new-quote-button" title="generate a new quote!">
+          New Quote
+        </button>
+      </div>
+    </div>
+    <div class="loader" id="loader"></div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
